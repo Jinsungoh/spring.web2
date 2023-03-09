@@ -26,3 +26,15 @@ public class NavController {
 		return "redirect:https://naver.com";
 	}
 }
+/*
+forward() 메서드는 HTTP GET 요청을 처리하고, 
+"forward:target"를 반환하여, 다른 컨트롤러나 뷰로 전달되도록 요청을 전달합니다. 
+여기서 "target"는 다른 메서드에서 정의된 뷰 이름입니다.
+
+target() 메서드는 HTTP GET 요청을 처리하고, 
+"ch02/ex05/target"를 반환하여 해당 뷰를 보여줍니다.
+
+redirect() 메서드는 HTTP GET 요청을 처리하고, 
+"redirect:target"를 반환하여, 다른 컨트롤러나 뷰로 리디렉션합니다. 
+여기서 "target"는 다른 메서드에서 정의된 뷰 이름입니다.
+*/
