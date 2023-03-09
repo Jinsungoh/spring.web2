@@ -23,7 +23,7 @@ public class UserController {
 	}
 	
 	@PostMapping
-	public String userOut(UserDto userDto,HttpServletRequest request, User user) {
+	public String userOut(UserDto userDto, User user) {
 		String filename = userDto.getFace().getOriginalFilename();
 		saveFile(attachPath + "/" + filename, userDto.getFace());
 		
