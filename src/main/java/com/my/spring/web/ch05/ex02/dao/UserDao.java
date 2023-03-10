@@ -1,4 +1,4 @@
-package com.my.spring.web.ch05.ex02.dao.map;
+package com.my.spring.web.ch05.ex02.dao;
 
 import java.util.List;
 

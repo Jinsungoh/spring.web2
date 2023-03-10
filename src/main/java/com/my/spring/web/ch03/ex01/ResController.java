@@ -10,3 +10,4 @@ public class ResController {
 	@GetMapping()
 	public void res() {}
 }
+//자바객체외의것들을 리소스핸들러를 사용한다.

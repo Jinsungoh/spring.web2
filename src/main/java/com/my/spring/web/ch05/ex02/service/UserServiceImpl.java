@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.my.spring.web.ch05.domain.User;
-import com.my.spring.web.ch05.ex02.dao.map.UserDao;
+import com.my.spring.web.ch05.ex02.dao.UserDao;
 
 @Service("ch05.ex02.userService")
 public class UserServiceImpl implements UserService{

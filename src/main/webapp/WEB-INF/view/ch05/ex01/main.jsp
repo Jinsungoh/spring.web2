@@ -37,7 +37,7 @@ function init() {
 			   username:'양승일',
 			   birthday:'2023-05-12'
 		   }),
-		   contextType:'application/json'
+		   contentType:'application/json'
 	   }).done(user => console.log(user))
    })
    
